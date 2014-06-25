@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2014-06-24T14:28:11Z</date>
+    <date>2014-06-25T11:23:06Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -28,7 +28,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.aof_enabled[{$REDISPORT},aof_enabled]</key>
+                    <key>redis[{$REDISPORT},aof_enabled]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -70,7 +70,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.arch_bits[{$REDISPORT},arch_bits]</key>
+                    <key>redis[{$REDISPORT},arch_bits]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -112,7 +112,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.bgrewriteaof_in_progress[{$REDISPORT},bgrewriteaof_in_progress]</key>
+                    <key>redis[{$REDISPORT},bgrewriteaof_in_progress]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -154,7 +154,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.bgsave_in_progress[{$REDISPORT},bgsave_in_progress]</key>
+                    <key>redis[{$REDISPORT},bgsave_in_progress]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -196,7 +196,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.blocked_clients[{$REDISPORT},blocked_clients]</key>
+                    <key>redis[{$REDISPORT},blocked_clients]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -238,7 +238,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.changes_since_last_save[{$REDISPORT},changes_since_last_save]</key>
+                    <key>redis[{$REDISPORT},changes_since_last_save]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -280,7 +280,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.client_biggest_input_buf[{$REDISPORT},client_biggest_input_buf]</key>
+                    <key>redis[{$REDISPORT},client_biggest_input_buf]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -322,7 +322,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.client_longest_output_list[{$REDISPORT},client_longest_output_list]</key>
+                    <key>redis[{$REDISPORT},client_longest_output_list]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -364,7 +364,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.connected_clients[{$REDISPORT},connected_clients]</key>
+                    <key>redis[{$REDISPORT},connected_clients]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -406,7 +406,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.connected_slaves[{$REDISPORT},connected_slaves]</key>
+                    <key>redis[{$REDISPORT},connected_slaves]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -448,7 +448,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.evicted_keys[{$REDISPORT},evicted_keys]</key>
+                    <key>redis[{$REDISPORT},evicted_keys]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -490,7 +490,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.expired_keys[{$REDISPORT},expired_keys]</key>
+                    <key>redis[{$REDISPORT},expired_keys]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -532,7 +532,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.gcc_version[{$REDISPORT},gcc_version]</key>
+                    <key>redis[{$REDISPORT},gcc_version]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -574,7 +574,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.keyspace_hits[{$REDISPORT},keyspace_hits]</key>
+                    <key>redis[{$REDISPORT},keyspace_hits]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -616,7 +616,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.keyspace_misses[{$REDISPORT},keyspace_misses]</key>
+                    <key>redis[{$REDISPORT},keyspace_misses]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -658,7 +658,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.last_save_time[{$REDISPORT},last_save_time]</key>
+                    <key>redis[{$REDISPORT},last_save_time]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -700,7 +700,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.latest_fork_usec[{$REDISPORT},latest_fork_usec]</key>
+                    <key>redis[{$REDISPORT},latest_fork_usec]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -742,7 +742,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.loading[{$REDISPORT},loading]</key>
+                    <key>redis[{$REDISPORT},loading]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -784,7 +784,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.lru_clock[{$REDISPORT},lru_clock]</key>
+                    <key>redis[{$REDISPORT},lru_clock]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -826,7 +826,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.mem_allocator[{$REDISPORT},mem_allocator]</key>
+                    <key>redis[{$REDISPORT},mem_allocator]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -868,7 +868,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.mem_fragmentation_ratio[{$REDISPORT},mem_fragmentation_ratio]</key>
+                    <key>redis[{$REDISPORT},mem_fragmentation_ratio]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -910,7 +910,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.multiplexing_api[{$REDISPORT},multiplexing_api]</key>
+                    <key>redis[{$REDISPORT},multiplexing_api]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -952,7 +952,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.process_id[{$REDISPORT},process_id]</key>
+                    <key>redis[{$REDISPORT},process_id]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -994,7 +994,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.pubsub_channels[{$REDISPORT},pubsub_channels]</key>
+                    <key>redis[{$REDISPORT},pubsub_channels]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1036,7 +1036,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.pubsub_patterns[{$REDISPORT},pubsub_patterns]</key>
+                    <key>redis[{$REDISPORT},pubsub_patterns]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1078,7 +1078,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.redis_git_dirty[{$REDISPORT},redis_git_dirty]</key>
+                    <key>redis[{$REDISPORT},redis_git_dirty]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1120,7 +1120,49 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.redis_git_sha1[{$REDISPORT},redis_git_sha1]</key>
+                    <key>redis[{$REDISPORT},redis_git_sha1]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Redis</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>redis_ping</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>net.tcp.port[127.0.0.1,{$REDISPORT}]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1162,7 +1204,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.redis_version[{$REDISPORT},redis_version]</key>
+                    <key>redis[{$REDISPORT},redis_version]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1204,7 +1246,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.role[{$REDISPORT},role]</key>
+                    <key>redis[{$REDISPORT},role]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1246,7 +1288,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.total_commands_processed[{$REDISPORT},total_commands_processed]</key>
+                    <key>redis[{$REDISPORT},total_commands_processed]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1288,7 +1330,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.total_connections_received[{$REDISPORT},total_connections_received]</key>
+                    <key>redis[{$REDISPORT},total_connections_received]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1330,7 +1372,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.uptime_in_days[{$REDISPORT},uptime_in_days]</key>
+                    <key>redis[{$REDISPORT},uptime_in_days]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1372,7 +1414,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.uptime_in_seconds[{$REDISPORT},uptime_in_seconds]</key>
+                    <key>redis[{$REDISPORT},uptime_in_seconds]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1414,7 +1456,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_cpu_sys[{$REDISPORT},used_cpu_sys]</key>
+                    <key>redis[{$REDISPORT},used_cpu_sys]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1456,7 +1498,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_cpu_sys_children[{$REDISPORT},used_cpu_sys_children]</key>
+                    <key>redis[{$REDISPORT},used_cpu_sys_children]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1498,7 +1540,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_cpu_user[{$REDISPORT},used_cpu_user]</key>
+                    <key>redis[{$REDISPORT},used_cpu_user]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1540,7 +1582,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_cpu_user_children[{$REDISPORT},used_cpu_user_children]</key>
+                    <key>redis[{$REDISPORT},used_cpu_user_children]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1582,7 +1624,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_memory[{$REDISPORT},used_memory]</key>
+                    <key>redis[{$REDISPORT},used_memory]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1624,7 +1666,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_memory_peak[{$REDISPORT},used_memory_peak]</key>
+                    <key>redis[{$REDISPORT},used_memory_peak]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1666,7 +1708,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.used_memory_rss[{$REDISPORT},used_memory_rss]</key>
+                    <key>redis[{$REDISPORT},used_memory_rss]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1708,7 +1750,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>redis.vm_enabled[{$REDISPORT},vm_enabled]</key>
+                    <key>redis[{$REDISPORT},vm_enabled]</key>
                     <delay>30</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1751,4 +1793,16 @@
             <screens/>
         </template>
     </templates>
+    <triggers>
+        <trigger>
+            <expression>{Template Redis:net.tcp.port[127.0.0.1,{$REDISPORT}].last()}=0</expression>
+            <name>Redis is down {HOSTNAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+    </triggers>
 </zabbix_export>
